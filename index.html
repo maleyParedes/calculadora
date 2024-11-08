@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section>
+      <div class="cuadrado" style="--i: 0"></div>
+      <div class="cuadrado" style="--i: 1"></div>
+      <div class="cuadrado" style="--i: 2"></div>
+      <form class="calcBox" id="calculadora" action="">
+        <h2>Calculadora</h2>
+        <div class="contenArea">
+          <input
+            class="resultado"
+            type="text"
+            id="area"
+            disabled
+            placeholder="0"
+          />
+        </div>
+        <div class="contenButton">
+          <input class="botones" id="clear" type="button" value="AC" />
+          <input class="botones" id="borrar" type="button" value="C" />
+          <input class="botones" id="dividir" type="button" value="/" />
+          <input class="botones" id="multiplicar" type="button" value="*" />
+          <input class="botones" id="restar" type="button" value="-" />
+          <input class="botones" id="sumar" type="button" value="+" />
+          <input class="botones" id="igual" type="button" value="=" />
+
+          <input class="botones" id="punto" type="button" value="." />
+          <input class="botones" id="buton0" type="button" value="0" />
+          <input class="botones" id="buton1" type="button" value="1" />
+          <input class="botones" id="buton2" type="button" value="2" />
+          <input class="botones" id="buton3" type="button" value="3" />
+          <input class="botones" id="buton4" type="button" value="4" />
+          <input class="botones" id="buton5" type="button" value="5" />
+          <input class="botones" id="buton6" type="button" value="6" />
+          <input class="botones" id="buton7" type="button" value="7" />
+          <input class="botones" id="buton8" type="button" value="8" />
+          <input class="botones" id="buton9" type="button" value="9" />
+        </div>
+      </form>
+    </section>
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
